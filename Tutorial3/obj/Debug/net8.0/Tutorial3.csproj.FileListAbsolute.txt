@@ -26,3 +26,4 @@ C:\Users\Admin\Desktop\Tutorial3\Tutorial3\Tutorial3\obj\Debug\net8.0\refint\Tut
 C:\Users\Admin\Desktop\Tutorial3\Tutorial3\Tutorial3\obj\Debug\net8.0\Tutorial3.pdb
 C:\Users\Admin\Desktop\Tutorial3\Tutorial3\Tutorial3\obj\Debug\net8.0\Tutorial3.genruntimeconfig.cache
 C:\Users\Admin\Desktop\Tutorial3\Tutorial3\Tutorial3\obj\Debug\net8.0\ref\Tutorial3.dll
+C:\Users\Admin\Desktop\Tutorial3\Tutorial3\Tutorial3\obj\Debug\net8.0\Tutorial3.sourcelink.json

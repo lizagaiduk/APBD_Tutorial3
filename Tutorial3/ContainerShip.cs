@@ -54,4 +54,12 @@ public class ContainerShip
             Console.WriteLine($"  - {container.SerialNumber}, cargo: {container.CargoMass} kg");
         }
     }
+    public void LoadContainers(List<Container> containers)
+    {
+        foreach (var container in containers)
+        {
+            LoadContainer(container);
+        }
+    }
+
 }

@@ -20,6 +20,8 @@ class Program
         var liquidContainer = new LiquidContainer(260, 1000, 300, 2000, true);
         var fridgeContainer = new RefrigeratedContainer(260, 1500, 300, 2500, 2);
         fridgeContainer.SetProduct("Fish");
+        
+        var containerList = new List<Container> { gasContainer, liquidContainer, fridgeContainer };
 
         Console.WriteLine("\nCreated containers:");
         Console.WriteLine($"  - {gasContainer.SerialNumber} [Gas]");
@@ -42,13 +44,11 @@ class Program
             Console.WriteLine($"Error while loading cargo: {ex.Message}");
         }
 
-        // 4. Load containers onto Ship 1
+        // 4. Load  list of containers onto Ship 1
         try
         {
-            Console.WriteLine("\nLoading containers onto Ship 1...");
-            ship1.LoadContainer(gasContainer);
-            ship1.LoadContainer(liquidContainer);
-            ship1.LoadContainer(fridgeContainer);
+            Console.WriteLine("\nLoading container list onto Ship 1...");
+            ship1.LoadContainers(containerList);
             Console.WriteLine("All containers are loaded onto Ship 1.");
         }
         catch (Exception ex)
